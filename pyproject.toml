@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pharmacy-covid-analysis"
+version = "0.1.0"
+description = "Structural breaks, volatility, calendar effects and forecast validation for daily pharmacy revenue around COVID-19."
+requires-python = ">=3.14"
+dependencies = [
+    "numpy",
+    "pandas",
+    "scipy",
+    "statsmodels",
+    "matplotlib",
+    "seaborn",
+    "ruptures>=1.1",
+    "joblib",
+    "arch",
+]
+
+[project.optional-dependencies]
+notebooks = ["jupyterlab", "ipykernel", "nbconvert", "prophet"]
+dev = ["pytest", "ruff"]
+
+[tool.setuptools.packages.find]
+include = ["pharmacy_covid_analysis*"]

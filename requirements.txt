@@ -1,0 +1,26 @@
+# Tested on Python 3.14. All packages are pinned to the exact versions used to
+# generate the shipped notebook outputs. Regenerate with `pip freeze` in the
+# working environment and trim to what the project uses.
+
+# Scientific stack
+numpy==2.5.1
+pandas==2.3.3
+scipy==1.16.3
+statsmodels==0.14.6
+matplotlib==3.11.1
+seaborn==0.13.2
+
+# Analysis-specific
+ruptures==1.1.9
+prophet==1.4.0
+joblib==1.6.0
+arch==8.0.0
+
+# Notebook runtime
+ipykernel==7.3.0
+ipython==9.15.0
+nbconvert==7.17.1
+jupyterlab>=4.0
+
+# Testing (referenced by the README as `pytest tests/`)
+pytest==9.1.1
