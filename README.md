@@ -132,4 +132,4 @@ pharmacy-covid-analysis/
 
 ## About
 
-Abdelhak Kheniche. I ran an independent community pharmacy for 22 years and am moving into model risk, quantitative research and data science roles in the UK. [LinkedIn](https://www.linkedin.com/in/abdelhak-kheniche/)
+Abdelhak Kheniche. The data are from the independent community pharmacy I owned and ran for 22 years; the analysis is my own. [LinkedIn](https://www.linkedin.com/in/abdelhak-kheniche/)
